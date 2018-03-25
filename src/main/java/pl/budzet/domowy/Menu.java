@@ -1,0 +1,11 @@
+package pl.budzet.domowy;
+
+public enum Menu {
+    DODAJ_PRZYCHOD,
+    DODAJ_WYDATEK,
+    WYSWIETL_PRZYCHODY,
+    WYSWITL_WYDATEKI,
+    WYSWIETLENIE_Z_PRZEDZIALU_CZASU,
+    WIEKSZE_OD_TWOJEJ_CENY,
+    KONIEC;
+}
