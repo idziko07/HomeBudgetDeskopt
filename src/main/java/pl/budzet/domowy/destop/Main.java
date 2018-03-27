@@ -1,11 +1,6 @@
-package pl.budzet.domowy;
+package pl.budzet.domowy.destop;
 
 
-import org.hibernate.validator.constraints.EAN;
-
-import java.time.LocalDateTime;
-import java.util.Date;
-import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 

@@ -1,11 +1,12 @@
-package pl.budzet.domowy;
+package pl.budzet.domowy.destop;
+
+import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
-
+@Component
 public class HomeBudgetDao {
     private static final String URL = "jdbc:mysql://localhost:3306/?serverTimezone=UTC";
     private static final String ROOT = "root";
@@ -55,7 +56,7 @@ public class HomeBudgetDao {
 
     }
 
-    public List read(String select) {
+    public List<HomeBudget> read(String select) {
         final String sql = "SELECT * FROM home_budget WHERE type = ?";
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(sql);

@@ -1,4 +1,4 @@
-package pl.budzet.domowy;
+package pl.budzet.domowy.destop;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

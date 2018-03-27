@@ -1,11 +1,11 @@
-package pl.budzet.domowy;
+package pl.budzet.domowy.destop;
 
 public enum Menu {
     DODAJ_PRZYCHOD,
     DODAJ_WYDATEK,
     WYSWIETL_PRZYCHODY,
-    WYSWITL_WYDATEKI,
-    WYSWIETLENIE_Z_PRZEDZIALU_CZASU,
+    WYSWIETL_WYDATEKI,
+    WYSWIETLANIE_Z_PRZEDZIALU_CZASU,
     WIEKSZE_OD_TWOJEJ_CENY,
     KONIEC;
 }

@@ -1,10 +1,11 @@
-package pl.budzet.domowy;
+package pl.budzet.domowy.destop;
+
+import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 import java.sql.Date;
 import java.util.List;
 import java.util.Scanner;
-
 public class LoadHomeBudget {
     private Scanner input = new Scanner(System.in);
 
